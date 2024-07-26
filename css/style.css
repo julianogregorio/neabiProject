@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #000000;
-  background-color: #865012bb;
+  background-color: #CD853F;
 }
 
 .layout_padding {
@@ -40,7 +40,7 @@ body {
 /*header section*/
 .hero_area {
   position: relative;
-  background-color:#865012bb;
+  background-color:white;
   height: 85vh;
 }
 
@@ -53,7 +53,7 @@ body {
 }
 
 .header_section {
-  background-color: #3b2205bb;
+  background-color: #FFFFF0;
 }
 
 .header_section .container-fluid {
@@ -219,7 +219,7 @@ a:focus {
 }
 
 .slider_section .detail-box .btn-box .btn-2:hover {
-  background-color: #f8f0e9;
+  background-color: #fefdfc;
 }
 
 .slider_section ol.carousel-indicators {
@@ -304,7 +304,7 @@ a:focus {
 }
 
 .about_section {
-  background-color: #f7f7f7;
+  background-color: #40E0D0;
 }
 
 .about_section .row {
