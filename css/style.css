@@ -46,6 +46,12 @@ body {
   position: relative;
   background-color: #cd853e;
   height: 85vh;
+
+  /*testes de background*/
+  height: 100vh;
+  background-image: url('images/backgroundAbsolute.jpg');
+
+
 }
 
 .sub_page .hero_area {
