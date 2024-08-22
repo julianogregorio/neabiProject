@@ -39,6 +39,7 @@ body {
 
 .hero_next_section-margin {
   margin-top: 100px;
+  background-color: #40E0D0;
 }
 
 /*header section*/
@@ -46,12 +47,11 @@ body {
   position: relative;
   background-color: #cd853e;
   height: 85vh;
-
-  /*testes de background*/
+  /*background image*/
   height: 100vh;
-  background-image: url('images/backgroundAbsolute.jpg');
-
-
+  background-image:url("../images/backgroundAbsolute.jpg");
+  background-position: center center;
+  background-size: cover;
 }
 
 .sub_page .hero_area {
@@ -314,7 +314,7 @@ a:focus {
 }
 
 .about_section {
-  background-color: #40E0D0;
+  background-color: #cd853e;
 }
 
 .about_section .row {
@@ -438,6 +438,11 @@ a:focus {
   position: relative;
   background-color: #cd853e;
   font-family: "Poppins", sans-serif;
+   /*background image*/
+   height: 100vh;
+   background-image:url("../images/backgroundAbsolute.jpg");
+   background-position: center center;
+   background-size: cover;
 }
 
 .contact_section h2 {
