@@ -5,7 +5,7 @@ p {
 body {
   font-family: "Roboto", sans-serif;
   color: #000000;
-  background-color: #FFEBCD;
+  background-color: #FFFFFF;
 }
 
 .layout_padding {
@@ -64,7 +64,7 @@ body {
 }
 
 .header_section {
-  background-color: #fffff0;
+  background-color: #d6c4ab;
 }
 
 .header_section .container-fluid {
@@ -164,7 +164,7 @@ a:focus {
 /*end header section*/
 /* slider section */
 .slider_section {
-  background-image: url(../images/slider-bg.jpg);
+  background-image: url(../images/slider-bg2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 90%;
@@ -344,7 +344,7 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 12px 45px;
-  background-color: #ffff00;
+  background-color: #ffebcd;
   color: #050505;
   border-radius: 0;
   text-transform: uppercase;
