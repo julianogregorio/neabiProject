@@ -39,7 +39,8 @@ body {
 
 .hero_next_section-margin {
   margin-top: 100px;
-  background-color: #40E0D0;
+  background-color: #008080; /*TEAL
+  *background-color: #40E0D0; turquesa inicial*/
 }
 
 /*header section*/
@@ -184,7 +185,8 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
-  color: #0f521a;
+  
+  color: #cb7232 /* LARANJA  #0f521a*/;
   font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 400;
@@ -208,7 +210,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn-1 {
   display: inline-block;
   padding: 12px 45px;
-  background-color: #00ff4c;
+  background-color: #cb7232 /*#00ff4c*/;
   color: #050505;
   border-radius: 0;
   text-transform: uppercase;
@@ -216,7 +218,7 @@ a:focus {
 }
 
 .slider_section .detail-box .btn-box .btn-1:hover {
-  background-color: #15ff00;
+  background-color: #cb7232/* LARANJA#15ff00*/;
 }
 
 .slider_section .detail-box .btn-box .btn-2 {
