@@ -167,11 +167,11 @@ a:focus {
   background-image: url(../images/slider2Copia.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   -webkit-transform: translateY(50px);
           transform: translateY(50px);
-  height: 95%;
+  height: 97%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -593,11 +593,23 @@ a:focus {
 }
 
 .quote{
-  margin-left: 25px;
-  background-color: red;
+  background-color: #cd853e;
 }
+
+.quote h1, h5{
+  text-align: center;
+}
+
+.quote h5{
+  font-style: italic;
+}
+
 
 .video-area{
   background-color: #008080;
+}
+.video-area h1{
+  text-align: center;
+  color: #ffebcd;
 }
 /*# sourceMappingURL=style.css.map */
