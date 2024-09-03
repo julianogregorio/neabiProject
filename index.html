@@ -771,115 +771,70 @@
 
   <!-- end client section -->
 
-  <!-- contact section -->
-
-  <section class="contact_section layout_padding">
-    <div class="container ">
-      <div class="heading_container ">
-        <h2 class="">
-          <span>
-            Fale
-          </span>
-          <span>
-            Conosco
-          </span>
-
-        </h2>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 ">
-          <form action="#">
-            <div>
-              <input type="text" placeholder="Nome" />
-            </div>
-            <div>
-              <input type="text" placeholder="Telefone" />
-            </div>
-            <div>
-              <input type="email" placeholder="E-mail" />
-            </div>
-            <div>
-              <input type="text" class="message-box" placeholder="Mensagem" />
-            </div>
-            <div class="d-flex  mt-4 ">
-              <button>
-                ENVIAR
-              </button>
-            </div>
-          </form>
-        </div>
-        <div class="col-md-6">
-          <!-- map section -->
-          <div class="map_section">
-            <div id="map" class="w-100 h-100"></div>
-          </div>
-
-          <!-- end map section -->
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end contact section -->
-
   <!-- quote section -->
   <section class="quote layout_padding">
-    <div>
+    <div class="heading_container">
       <h1>Vozes-Mulheres</h1><br>
     </div>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-12 col-md-3">
-          <p>
-            A voz de minha bisavó<br>
-            ecoou criança<br>
-            nos porões do navio<br>
-            ecoou lamentos<br>
-            de uma infância perdida.<br>
-          </p>
-          <p>
-            A voz de minha mãe<br>
-            ecoou baixinho revolta<br>
-            no fundo das cozinhas alheias<br>
-            debaixo das trouxas<br>
-            roupagens sujas dos brancos<br>
-            pelo caminho empoeirado<br>
-            rumo à favela<br>
-          </p>
-          <p>
-            A minha voz ainda<br>
-            ecoa versos perplexos<br>
-            com rimas de sangue<br>
-            e<br>
-            fome.<br>
-          </p>
+        <div class="col-md-3">
+          <div class="detail-box">
+
+            <p>
+              A voz de minha bisavó<br>
+              ecoou criança<br>
+              nos porões do navio<br>
+              ecoou lamentos<br>
+              de uma infância perdida.<br>
+            </p>
+            <p>
+              A voz de minha mãe<br>
+              ecoou baixinho revolta<br>
+              no fundo das cozinhas alheias<br>
+              debaixo das trouxas<br>
+              roupagens sujas dos brancos<br>
+              pelo caminho empoeirado<br>
+              rumo à favela<br>
+            </p>
+            <p>
+              A minha voz ainda<br>
+              ecoa versos perplexos<br>
+              com rimas de sangue<br>
+              e<br>
+              fome.<br>
+            </p>
+
+          </div>
         </div>
-        <div class="col-12 col-md-3">
-          <p>
-            A voz de minha filha<br>
-            recolhe todas as nossas vozes<br>
-            recolhe em si<br>
-            as vozes mudas caladas<br>
-            engasgadas nas gargantas<br>
-          </p>
-          <p>
-            A voz de minha filha <br>
-            recolhe em si<br>
-            a fala e o ato.<br>
-            O ontem – o hoje – o agora.<br>
-            Na voz de minha filha<br>
-            se fará ouvir a ressonância<br>
-            O eco da vida-liberdade.<br>
-            A voz de minha filha<br>
-          </p>
-          <p>
-          <h5>Conceição Evaristo</h5>
-          </p>
+        <div class="col-md-3">
+          <div class="detail-box">
+            <p>
+              A voz de minha filha<br>
+              recolhe todas as nossas vozes<br>
+              recolhe em si<br>
+              as vozes mudas caladas<br>
+              engasgadas nas gargantas<br>
+            </p>
+            <p>
+              A voz de minha filha <br>
+              recolhe em si<br>
+              a fala e o ato.<br>
+              O ontem – o hoje – o agora.<br>
+              Na voz de minha filha<br>
+              se fará ouvir a ressonância<br>
+              O eco da vida-liberdade.<br>
+              A voz de minha filha<br>
+            </p>
+            <p>
+            <h5>Conceição Evaristo</h5>
+            </p>
+          </div>
         </div>
-        <div class="col-12 col-md-6">
-          <img src="images/quoteSection.jpg" alt="">
+        <div class="col-md-6">
+          <div class="img-box">
+            <img src="images/quoteSection.jpg" alt="">
+          </div>
         </div>
       </div>
 
@@ -1069,6 +1024,65 @@
   </section>
   <!-- end videos section -->
 
+  <!-- contact section -->
+  <section class="contact_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2 class="">
+          <span class="title">
+              Fale Conosco
+          </span>
+        </h2>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 ">
+          <form action="https://api.staticforms.xyz/submit" method="post">
+            <div>
+              <input type="text"  name="nome" placeholder="Nome">
+            </div>
+            <div>
+              <input type="text" name="phone" placeholder="Telefone">
+            </div>
+            <div>
+              <input type="email" name="email" placeholder="E-mail">
+            </div>
+            <div>
+              <input type="text" name="message" class="message-box" placeholder="Mensagem" />
+            </div>
+            <div class="d-flex  mt-4 ">
+              <button>
+                ENVIAR
+              </button>
+            </div>
+            <input type="hidden" name="accessKey" value="3cf8f2af-563a-4839-aeb8-6d0aa9011033">
+            <input type="hidden" name="redirectTo" value="https://julianogregorio.github.io/neabiProject/">
+          </form>
+        </div>
+
+        <div class="col-md-6">
+          <!-- map section -->
+          <div class="map_section">
+            <div id="map" class="w-100 h-100">
+              <div class="img-box">
+                <iframe width="600" height="450" frameborder="0" style="border:0"
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXK7eJVYOVVq4T25GfIydCUvok1bdzyew&q=IFSULDEMINAS - Campus Machado&zoom=15"
+                allowfullscreen>
+              </iframe>
+              </div>
+            </div>
+          </div>
+          <!-- end map section -->
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- end contact section -->
+
+
 
 
   <!-- info section -->
@@ -1083,7 +1097,10 @@
             </h5>
           </div>
           <div class="col-md-6">
-            <form action="https://ifsuldeminas.us22.list-manage.com/subscribe/post?u=c5f92349a8c80e8223c030035&amp;id=674565f7ac&amp;f_id=0028d6e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+            <form
+              action="https://ifsuldeminas.us22.list-manage.com/subscribe/post?u=c5f92349a8c80e8223c030035&amp;id=674565f7ac&amp;f_id=0028d6e1f0"
+              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+              target="_blank">
               <input type="text" name="EMAIL" placeholder="Registre seu e-mail">
               <button>
                 Inscrição
@@ -1100,49 +1117,60 @@
           <div class="info_logo">
             <div>
               <a href="">
-                <img src="images/logo.png" alt="" />
+                <img src="images/logoAlternativeRB.png" alt="" />
                 <span>
-                  Brighton
+                  IFSULDEMINAS
                 </span>
               </a>
             </div>
             <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration
+              <a href="https://portal.ifs.ifsuldeminas.edu.br" class="link-info">
+                Reitoria
+              </a>
+              <a href="https://portal.mch.ifsuldeminas.edu.br" class="link-info">
+                Campus Machado
+              </a>
+              <a href="https://portal.mch.ifsuldeminas.edu.br/auxilios" class="link-info">
+                Bolsas e auxílios
+              </a>
             </p>
           </div>
         </div>
         <div class="col-md-3">
           <div class="info_links ">
             <h5>
-              1 Us
+              Fundações Nacionais
             </h5>
             <p class="pr-0 pr-md-4 pr-lg-5">
-              Donec odio. Quisque volutpat mattis eros.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
-              odio. Quisque volutpat mattis eros
+              <a href="https://www.gov.br/funai/pt-br" class="link-info">
+                Fundação Nacional dos Povos Indígenas
+              </a><br>
+              <a href="https://www.gov.br/palmares/pt-br" class="link-info">
+                Fundação Cultural Palmares
+              </a>
             </p>
           </div>
         </div>
         <div class="col-md-3">
           <div class="info_insta">
             <h5>
-              INFORMATION
+              PARCEIROS
             </h5>
             <p class="pr-0 pr-md-4 pr-md-5">
-              Donec odio. Quisque volutpat mattis eros.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
-              odio. Quisque volutpat mattis eros
+              
             </p>
           </div>
         </div>
         <div class="col-md-3">
           <div class="pl-0 pl-lg-5 pl-md-4">
             <h5>
-              MY ACCOUNT
+              NEABI
 
             </h5>
             <p>
-              Donec odio. Quisque volutpat mattis eros.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
-              odio. Quisque volutpat mattis eros
+              <a href="#" class="link-info">Quem somos</a><br>
+              <a href="#" class="link-info">Programas</a><br>
+              <a href="#" class="link-info">Contato</a>
             </p>
 
           </div>
@@ -1156,45 +1184,13 @@
   <!-- footer section -->
   <section class="container-fluid footer_section">
     <p>
-      &copy; 2019 All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
+      &copy; 2024 All Rights Reserved
     </p>
   </section>
   <!-- footer section -->
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
-
-
-  <script>
-    // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-    // Australia.
-
-    function initMap() {
-      var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 15,
-        center: {
-          lat: -21.70098/*40.645037*/,
-          lng: -45.89033/*-73.880224*/
-        }
-      });
-
-      var image = "images/maps-and-flags.png";
-      var beachMarker = new google.maps.Marker({
-        position: {
-          lat: -21.70098/*40.645037*/,
-          lng: -45.89033/*-73.880224*/
-        },
-        map: map,
-        icon: image
-      });
-    }
-  </script>
-
-  <!-- google map js -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdc_JCa-eKNBe1otY4Y-PP6SHylofgXjY&callback=initMap">
-  </script>
-  <!-- end google map js -->
 
   <script>
     function openNav() {

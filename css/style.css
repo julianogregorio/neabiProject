@@ -612,4 +612,23 @@ a:focus {
   text-align: center;
   color: #ffebcd;
 }
+
+.title{
+  padding: 15px 55px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  border: 1.2px solid #000000;
+  color: #fff;
+  font-weight: bold;
+  background-color: #b45c2b;
+}
+.link-info{
+  color: white;
+}
+.link-info:hover{
+  color: white;
+}
+
+
 /*# sourceMappingURL=style.css.map */
