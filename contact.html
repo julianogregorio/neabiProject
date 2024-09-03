@@ -115,14 +115,7 @@
         <div class="col-md-6">
           <!-- map section -->
           <div class="map_section">
-            <div id="map" class="w-100 h-100">
-              <div class="img-box">
-                <iframe width="600" height="450" frameborder="0" style="border:0"
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA1Gf9-9dWT-GkH0caiuefjQ4cnI5jUnAw&q=IFSULDEMINAS - Campus Machado&zoom=15"
-                allowfullscreen>
-              </iframe>
-              </div>
-            </div>
+            <div id="map" class="w-100 h-100"></div>
           </div>
           <!-- end map section -->
         </div>
@@ -250,16 +243,16 @@
       var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 11,
         center: {
-          lat: 40.645037,
-          lng: -73.880224
+          lat: -21.70098,
+          lng: -45.89037
         }
       });
 
       var image = "images/maps-and-flags.png";
       var beachMarker = new google.maps.Marker({
         position: {
-          lat: 40.645037,
-          lng: -73.880224
+          lat: -21.70098,
+          lng: -45.89037
         },
         map: map,
         icon: image
@@ -267,7 +260,11 @@
     }
   </script>
   <!-- google map js -->
+  AIzaSyA1Gf9-9dWT-GkH0caiuefjQ4cnI5jUnAw
+  AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ
 
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1Gf9-9dWT-GkH0caiuefjQ4cnI5jUnAw&callback=initMap">
+  </script>
   <!-- end google map js -->
 
   <script>
